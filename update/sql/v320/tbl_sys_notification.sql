@@ -1,0 +1,1 @@
+ALTER TABLE tbl_sys_notification ADD COLUMN `type` VARCHAR(6) NOT NULL DEFAULT 'normal' COMMENT '消息类型（是否弹窗）'

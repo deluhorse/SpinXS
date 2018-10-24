@@ -1,0 +1,1 @@
+INSERT INTO `tbl_cfg_extensions`(`id`, `trigger_position`, `package_path`, `method`, `is_off`, `description`, `create_time`) VALUES ('101', 'update_customer_after', 'thirdpart.azoya.customer.service', 'create_customer_to_azoya', 0, '同步顾客信息至azoya', '2018-09-12 16:47:00');

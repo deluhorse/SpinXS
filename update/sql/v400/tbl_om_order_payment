@@ -1,0 +1,3 @@
+alter table tbl_om_order_payment add `currency` varchar(10) NOT NULL DEFAULT 'CNY' COMMENT '货币单位';
+alter table tbl_om_order_payment add `rate` decimal(9,4) NOT NULL DEFAULT '1.0000' COMMENT '汇率(外币/人民币)';
+alter table tbl_om_order_payment add `pay_channel` varchar(20) NOT NULL DEFAULT '' COMMENT '支付渠道';

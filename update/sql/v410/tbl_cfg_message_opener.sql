@@ -1,0 +1,1 @@
+update tbl_cfg_message_opener set email=1 where message_id=1

@@ -1,0 +1,1 @@
+ALTER TABLE tbl_um_shop ADD COLUMN `last_login_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '上次登录时间';

@@ -1,0 +1,1 @@
+INSERT INTO `tbl_cfg_schedule_job`(`job_id`, `group_name`, `start_time`, `limit_time`, `repeat_count`, `cron`, `path`, `method`, `params`, `create_time`) VALUES ('exchange_rate_task', 'default', '2018-08-28 10:00:00', 86400, -1, '0 0 10 * *', 'plugins.pay.epayments.service', 'daily_refresh_exchange_rate', '{}', '2017-07-06 15:48:21');

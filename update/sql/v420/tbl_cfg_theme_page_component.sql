@@ -1,0 +1,1 @@
+update tbl_cfg_theme_page_component set comp_image = 'https://imgcache1.wemartimg.cn/9f0bd5df-e5bf-cec5-0625-9466f36f' where comp_key = 'slider_3';
